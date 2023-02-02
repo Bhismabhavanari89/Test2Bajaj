@@ -1,0 +1,31 @@
+/* table, th, td {
+    border: 1px solid;
+  } */
+
+  td, th {
+    border: 1px solid #777;
+    padding: 0.5rem;
+    text-align: center;
+    text-align: left;
+}
+ 
+table {
+    border-collapse: collapse;
+}
+ 
+tbody tr:nth-child(odd) {
+    background: #eee;
+}
+caption {
+    font-size: 0.8rem;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+  }
+  thead th {
+    
+    color: #fff;
+    text-align: left;
+  }
